@@ -269,7 +269,7 @@ def last_kb():
 
 
 name = dispatch_cb(f"47:{plugin.UUID}:0")
-check("4.2 страница настроек открывает меню", name == "open_home" and "Детектор постоянников" in last_text())
+check("4.2 страница настроек открывает меню", name == "open_home" and "RegularsDetector" in last_text())
 check("4.3 статистика: 3 покупателя, 2 постоянника",
       "Покупателей в базе: <b>3</b>" in last_text() and "Постоянных" in last_text()
       and "<b>2</b>" in last_text())

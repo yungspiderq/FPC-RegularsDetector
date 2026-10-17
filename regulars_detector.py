@@ -48,12 +48,12 @@ from FunPayAPI.common.enums import OrderStatuses, Currency
 logger = logging.getLogger("FPC.Regulars")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Детектор постоянников"
-VERSION = "1.0.0"
+NAME = "RegularsDetector (Repeat Customers)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Распознаёт постоянных покупателей: уведомление «N-я покупка» при новом заказе, "
                "топ клиентов по покупкам и суммам, автообновление базы по истории продаж. "
                "Команда: /regulars")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "dbee3ecd-5734-471c-960a-1e01b5275679"
 SETTINGS_PAGE = True
 
